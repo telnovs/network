@@ -25,7 +25,12 @@ const App =() => {
               </div>
           </nav>
           <div className ='content'>
+              <div>
              <img src ='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQa6oUnm1b_f08m9G5ZSj6OgEUWbRN07MFKqJ22gEF2rjVu5jxF'/>
+              </div>
+              <div>
+                  <img src ='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRkF0FK0vrs0mvxOhn5M4Rqb2rrEXJinZYDFV_DY9FHK1HoH3pp '/>
+              </div>
             </div>
           </div>
 
