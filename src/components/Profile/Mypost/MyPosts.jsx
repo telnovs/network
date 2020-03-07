@@ -1,22 +1,20 @@
 import React from 'react';
 import s from './MyPosts.module.css';
-import  Post from './Post/Post';
+import Post from './Post/Post';
 
-const  MyPosts = () => {
+const MyPosts = () => {
     return (
         <div>
             My Posts
-        <div>
-            <textarea></textarea>
-        <button> Add post</button>
-        </div>
+            <div>
+                <textarea></textarea>
+                <button> Add post</button>
+            </div>
 
-        <div className={s.posts}>
-            <Post/>
-            <Post/>
-            <Post/>
-            <Post/>
-         </div>
+            <div className={s.posts}>
+                <Post message ='Hello'/>
+                <Post massage =' you are welcom'/>
+            </div>
         </div>
 
 
