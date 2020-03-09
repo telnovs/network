@@ -1,15 +1,29 @@
-.front {
-    display: grid;
-    margin: 0 auto;
-    width: 1200px;
-    grid-template-areas:
-            "h h"
-            "n c";
+.front{
 
+    width: 1200px;
+    display: grid;
+    grid-template-areas:
+    "h n"
+    "h c";
+    grid-template-rows:  60px 1fr;
     grid-template-columns: 2fr 10fr;
-    grid-template-rows: 300px 1fr;
-    /*grid-gap: 10px;*/
+
 }
+.header {
+    grid-area: h;
+    background-color: #aa51ff;
+}
+
+.header img {
+    width: 150px;
+}
+.nav {
+    grid-area: n;
+    background-color: burlywood;
+    padding: 20px;
+}
+
+
 
 
 

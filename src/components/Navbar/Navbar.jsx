@@ -1,9 +1,10 @@
 import React from 'react';
 import s from './Navbar.module.css';
+import '../../App.css';
 
 const Navbar = () => {
     return (
-        <nav className={s.nav}>
+        <nav className="nav">
             <div>
                 <a>Profile</a>
             </div>
@@ -20,7 +21,7 @@ const Navbar = () => {
                 <a>Settings</a>
             </div>
         </nav>
-    )
-}
+    );
+};
 
 export default Navbar;
